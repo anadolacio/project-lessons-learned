@@ -1,8 +1,92 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     position: fixed;
     top: 0;
+    background-color: rgb(92, 163, 122);
+    width: 100%;
+    height: 26%;
+    color: white;
+    text-align: center;    
+}
+
+nav li {
+    display: inline-block;
+    float: left;
+    border: 2px solid white;
+    padding: 2px;
+    margin-left: 20px;
+
+}
+
+nav ul li:hover {
+    background-color: rgba(218, 224, 218);
+    color: black;
+}
+
+main {
+    margin: 15% 2%;
+}
+
+#minha_foto {
+    border-radius: 5%;;
+}
+
+#content h2 {
+    margin-bottom: 1px;
+}
+
+.listas ol {
+    display: inline-block;
+    padding-right: 8%;
+}
+
+.listas ul {
+    display: inline-block;
+}
+
+article {
+    margin-top: 150px;
+    width: 55%;
+    border: 2px dotted rgb(92, 163, 122);
+    text-align: center;
+    display: inline-block;
+    float: center;
+}
+
+#tabela {
+    width: 55%;
+    margin-top:200px;
+    padding: 10px;;
+    border: 2px dotted rgb(92, 163, 122);
+}
+
+#tabela td {
+    border: 1px solid gray;
+}
+
+aside {
+    width: 55%;
+    border: 2px dotted rgb(92, 163, 122);
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 500px;
+}
+
+
+footer {
+    background-color: rgb(92, 163, 122);
+    display: block;
+
+}
+
+footer p {
+    padding: 30px 0;
+    text-align: center;
+    color: white;
 }
