@@ -50,10 +50,12 @@ main {
 .listas ul {
     display: inline-block;
 }
+.lado-esquerdo {
+    float: left;
+}
 
 article {
-    margin-top: 150px;
-    width: 55%;
+    width: 50%;
     border: 2px dotted rgb(92, 163, 122);
     text-align: center;
     display: inline-block;
@@ -71,15 +73,13 @@ article {
     border: 1px solid gray;
 }
 
-aside {
-    width: 35%;
+.lado-direito {
+    float:right;
+    width: 40%;
     border: 2px dotted rgb(92, 163, 122);
     text-align: center;
-    margin-left: 50px;
-    margin-bottom: 500px;
-    display: inline-block;
-    padding-top: 70px;
 }
+
 
 .descricao {
     line-height: 1.5;
