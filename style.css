@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
@@ -34,7 +35,7 @@ main {
 }
 
 #minha_foto {
-    border-radius: 5%;;
+    border-radius: 5%;
 }
 
 #content h2 {
@@ -56,14 +57,14 @@ article {
     border: 2px dotted rgb(92, 163, 122);
     text-align: center;
     display: inline-block;
-    float: center;
 }
 
 #tabela {
     width: 55%;
     margin-top:200px;
-    padding: 10px;;
+    padding: 10px;
     border: 2px dotted rgb(92, 163, 122);
+    margin-left: 23%;
 }
 
 #tabela td {
@@ -71,13 +72,18 @@ article {
 }
 
 aside {
-    width: 55%;
+    width: 35%;
     border: 2px dotted rgb(92, 163, 122);
     text-align: center;
-    margin-left: 25px;
+    margin-left: 50px;
     margin-bottom: 500px;
+    display: inline-block;
+    padding-top: 70px;
 }
 
+.descricao {
+    line-height: 1.5;
+}
 
 footer {
     background-color: rgb(92, 163, 122);
